@@ -1,5 +1,5 @@
-@import url("tablet.css");
-@import url("mobile.css");
+/* @import url("tablet.css");
+@import url("mobile.css"); */
 
 * {
     box-sizing: border-box;
@@ -177,3 +177,136 @@ footer h2 {
 }
 
 /* End Desktop */
+
+/* Begin Tablet */
+
+@media screen and (min-width: 599px) and (max-width: 1147px) {
+    
+    header {
+        position: fixed;
+        top: 0;
+        margin-top: 0;
+        width: 100%;
+        height: 69px;
+        background-color: black;
+        border-bottom: 1px solid seashell;
+        display: flex;
+    }
+
+    #slogan {
+        background-color: hsla(0, 0%, 0%, 0.7);
+    }
+
+    .menu {
+        max-width: 800px;
+    }
+
+    .tea-pic {
+        width: 220px;
+    }
+
+    figcaption {
+        font-size: 0.9em;
+    }
+
+    .container.locations {
+        padding-top: 0.2em;
+        margin: 60px auto 0 auto;
+        height: 400px;
+    }
+
+    .address {
+        font-size: 0.7em;
+        width: 195px;
+        margin-top: 5px;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 0;
+    }
+
+    .copyright p {
+        font-size: 0.8em;
+    }
+
+}
+
+/* End Tablet */
+
+/* Begin Mobile */
+
+@media screen and (max-width: 598px) {
+    
+    main {
+        margin: 0;
+    }
+
+    header {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container.slogan figure {
+        height: 600px;
+    }
+
+    #slogan {
+        background-color: hsla(0, 0%, 0%, 0.7);
+    }
+
+    #slogan h2 {
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    #slogan h4 {
+        margin: 0;
+    }
+
+    .tea-pic {
+        width: 200px;
+    }
+
+    figcaption {
+        font-size: 0.8em;
+    }
+
+    .container.locations {
+        background-image: none; /* I decided to remove the background image in this section for a better look */
+        padding-top: 1em;
+        margin: 20px 0;
+        height: 250px;
+    }
+
+    .address {
+        font-size: 0.6em; /* Font size and width set to these values to ensure they fit in line on every screen size */
+        width: 139px;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* I added vertical borders for a better readability */
+
+    .border-right {
+        border-right: 1px solid seashell;
+    }
+
+    .border-left {
+        border-left: 1px solid seashell;
+    }
+
+    footer .contact {
+        padding-bottom: 10px;
+    }
+
+    .copyright p {
+        font-size: 0.7em;
+        text-align: center;
+    }
+}
+
+/* End Mobile */
