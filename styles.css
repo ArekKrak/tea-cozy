@@ -151,7 +151,7 @@ footer h2 {
     }
 
     .container.locations {
-        background-image: url("/home/arek/IT/ITCS/2s-cacad/fstack/m8-tea-cozy/img/locations.jpeg");
+        background-image: url("/img/locations.jpeg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
