@@ -80,6 +80,10 @@ main {
     gap: 10px;
 }
 
+.menu figure {
+    margin: 0;
+}
+
 .tea-pic {
     margin: 10px;
     max-height: 200px;
