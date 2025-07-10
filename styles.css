@@ -1,0 +1,175 @@
+@import url("tablet.css");
+@import url("mobile.css");
+
+* {
+    box-sizing: border-box;
+}
+
+/* Parameters added into the body element according to the specs requirements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+}  
+
+header {
+    align-items: center; /* Aligns items of the heading element vertically */
+    justify-content: space-between; /* Spaces the logo and navbar and places them on the opposite ends of the heading element */
+    padding: 0 10px; /* Shifts the logo 10px away from the left side and also adds 10px gap on the right-hand side of the navbar */
+}
+
+/* Logo's height set to 50px according to the spec */
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none; /* Removes the bullet points */
+    display: flex; /* Places the list items in line */
+}
+
+/* Parameters that style padding and margin */
+nav ul li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    margin: 0.3em;
+}
+
+/* Parameters applied to hypertext anchor element according to the specs requirements */
+nav ul li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+/* Parameters added for a better look */
+main {
+    margin: 0 40px;
+    padding: 0;
+}
+
+.container.slogan {
+    display: flex; /* Helps to make the container responsive to various screen sizes with minimum width of 1148 pixels and to justify it */
+    justify-content: center; /* Justifies the cotainer horizontally so it's not stuck to the left side of the page */
+}
+
+.container.slogan figure {
+    background-image: url("/home/arek/IT/ITCS/2s-cacad/fstack/m8-tea-cozy/img/background.jpeg");
+    background-repeat: no-repeat; /* This parameter prevents the background image from repeated display */
+    background-position: center; /* Property set to make the background image responsive */
+    height: calc(100vh - 59px); /* The calc() is used to retain the correct proportions of the image so it's not hidden beneath the header */
+    width: 1200px; /* Width set according to the specs requirements */
+    display: flex;
+    align-items: center; /* Aligns the container slogan element vertically */
+}
+
+.menu {
+    margin: 0 auto; /* Keeps the content of the menu class centered and responsive */
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 10px;
+    display: flex; /* Sets images in line */
+    flex-wrap: wrap; /* Moves the flex items to the next line */
+    justify-content: center;/* Justifies the cotainer horizontally so it's not stuck to the left side of the page */
+    gap: 10px;
+}
+
+.tea-pic {
+    margin: 10px;
+    max-height: 200px;
+}
+
+.container.locations {
+    max-width: 1200px;
+    width: 100%;
+}
+
+#locs-heading {
+    height: 32px;
+    margin: 15px auto;
+}
+
+.locs {
+    display: flex;
+    justify-self: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.locs-spacer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+.address {
+    background-color: black;
+    display: inline-block; /* Places the blocks with the addresses in line */
+    opacity: 1;
+}
+
+footer {
+    height: 200px; /* The height of 200 pixels according to specified requirements */
+    margin: 0 20px;
+}
+
+footer h2 {
+    margin-top: 0.2em;
+}
+
+/* Begin desktop */
+@media screen and (min-width: 1148px) {
+
+    header {
+        position: fixed; /* Meets the specs requirements and keeps the header fixed on top */
+        top: 0; /* Eliminates the gap */
+        margin-top: 0;
+        width: 100%;
+        height: 69px;
+        background-color: black;
+        border-bottom: 1px solid seashell;
+        display: flex;
+    }
+
+    #slogan {
+        background-color: hsla(0, 0%, 0%, 1);
+        width: 100%;
+        max-width: 1200px; /* Meets the specs requirements */
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .tea-pic {
+        width: 300px; /* Meets the specs requirements */
+    }
+
+    .container.locations {
+        background-image: url("/home/arek/IT/ITCS/2s-cacad/fstack/m8-tea-cozy/img/locations.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 4em;
+        margin: 60px auto 0 auto;
+        height: 500px;
+    }
+
+    .address {
+        width: 300px;
+        margin: 0 20px;
+        padding: 5px;
+    }
+
+    .copyright p {
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+
+/* End Desktop */
