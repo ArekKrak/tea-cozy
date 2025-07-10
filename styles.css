@@ -60,7 +60,7 @@ main {
 }
 
 .container.slogan figure {
-    background-image: url("/home/arek/IT/ITCS/2s-cacad/fstack/m8-tea-cozy/img/background.jpeg");
+    background-image: url("/img/background.jpeg");
     background-repeat: no-repeat; /* This parameter prevents the background image from repeated display */
     background-position: center; /* Property set to make the background image responsive */
     height: calc(100vh - 59px); /* The calc() is used to retain the correct proportions of the image so it's not hidden beneath the header */
