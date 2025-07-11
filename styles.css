@@ -104,7 +104,7 @@ main {
     display: flex;
     justify-self: center;
     gap: 40px;
-/*     flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .locs-spacer {
