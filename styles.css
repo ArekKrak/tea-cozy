@@ -72,7 +72,7 @@ main {
     width: 100%;
     padding: 0 10px;
     display: flex; /* Sets images in line */
-/*     flex-wrap: wrap; */ /* Moves the flex items to the next line */
+    flex-wrap: wrap; /* Moves the flex items to the next line */
     justify-content: center;/* Justifies the cotainer horizontally so it's not stuck to the left side of the page */
     gap: 10px;
 }
