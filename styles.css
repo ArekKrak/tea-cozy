@@ -284,6 +284,7 @@ footer h2 {
         width: 139px;
         margin: 0;
         padding: 0;
+        display: inline-block;
     }
 
     /* I added vertical borders for a better readability */
