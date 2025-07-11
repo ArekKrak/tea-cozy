@@ -116,7 +116,7 @@ main {
 
 .address {
     background-color: black;
-    display: inline-block; /* Places the blocks with the addresses in line */
+    /* display: inline-block; */ /* Places the blocks with the addresses in line */
     opacity: 1;
 }
 
@@ -165,6 +165,7 @@ footer h2 {
         width: 300px;
         margin: 0 20px;
         padding: 5px;
+        display: inline-block;
     }
 
     .copyright p {
@@ -219,6 +220,7 @@ footer h2 {
         margin-right: 20px;
         margin-left: 20px;
         padding: 0;
+        display: inline-block;
     }
 
     .copyright p {
@@ -284,6 +286,8 @@ footer h2 {
         width: 139px;
         margin: 0;
         padding: 0;
+        display: flex;
+        align-items: center;
     }
 
     /* I added vertical borders for a better readability */
