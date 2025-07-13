@@ -152,6 +152,11 @@ footer h2 {
         box-sizing: border-box;
     }
 
+    .menu figure {
+        display: grid;
+        justify-content: center;
+    }
+
     .tea-pic {
         width: 300px; /* Meets the specs requirements */
     }
