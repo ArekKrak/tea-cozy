@@ -78,12 +78,11 @@ main {
 }
 
 .menu figure {
-    width: 300px;
-    margin: 10;
+    margin: 0;
 }
 
 .tea-pic {
-    margin: 0;
+    margin: 10px;
     max-height: 200px;
 }
 
@@ -152,9 +151,8 @@ footer h2 {
         box-sizing: border-box;
     }
 
-    .menu figure {
-        display: grid;
-        justify-content: center;
+    .tea-pic {
+        width: 300px; /* Meets the specs requirements */
     }
 
     .container.locations {
@@ -264,10 +262,6 @@ footer h2 {
 
     #slogan h4 {
         margin: 0;
-    }
-
-    .menu figure {
-        max-width: 100%;
     }
 
     .tea-pic {
