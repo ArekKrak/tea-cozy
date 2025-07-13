@@ -157,10 +157,6 @@ footer h2 {
         justify-content: center;
     }
 
-    .tea-pic {
-        width: 300px; /* Meets the specs requirements */
-    }
-
     .container.locations {
         padding-top: 4em;
         margin: 60px auto 0 auto;
