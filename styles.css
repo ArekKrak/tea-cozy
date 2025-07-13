@@ -57,7 +57,7 @@ main {
 }
 
 .container.slogan figure {
-    background-image: url("../m8-tea-cozy/img/background.jpeg");
+    background-image: url("./img/background.jpeg");
     background-repeat: no-repeat; /* This parameter prevents the background image from repeated display */
     background-position: center; /* Property set to make the background image responsive */
     height: calc(100vh - 59px); /* The calc() is used to retain the correct proportions of the image so it's not hidden beneath the header */
@@ -87,7 +87,7 @@ main {
 }
 
 .container.locations {
-    background-image: url("../m8-tea-cozy/img/locations.jpeg");
+    background-image: url("./img/locations.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
