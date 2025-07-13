@@ -79,11 +79,11 @@ main {
 
 .menu figure {
     width: 300px;
-    margin: 0;
+    margin: 10;
 }
 
 .tea-pic {
-    margin: 10px;
+    margin: 0;
     max-height: 200px;
 }
 
@@ -266,7 +266,7 @@ footer h2 {
     }
 
     .menu figure {
-
+        max-width: 100%;
     }
 
     .tea-pic {
