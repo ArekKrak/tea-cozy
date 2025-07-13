@@ -78,6 +78,7 @@ main {
 }
 
 .menu figure {
+    width: 300px;
     margin: 0;
 }
 
@@ -262,6 +263,10 @@ footer h2 {
 
     #slogan h4 {
         margin: 0;
+    }
+
+    .menu figure {
+
     }
 
     .tea-pic {
